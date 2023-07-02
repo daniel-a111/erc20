@@ -1,7 +1,7 @@
 import { Addr, ContractDeploy } from "scaas/src/vm/core";
 import { VM, registerContract } from "scaas/src/vm/vm";
 import { DataTypes } from "sequelize";
-import { sequelize } from "../models";
+import { sequelize } from "./models";
 
 
 registerContract(() => {
